@@ -1,0 +1,44 @@
+@media (max-width:640px) {
+    body{
+        background-image: url('fondocelu.jpg');
+    }
+}
+
+@media (min-width:641px) {
+    body{
+        background-image: url('fondo.jpeg');
+    }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+logo{
+    height: 50%;
+
+}
+::placeholder {
+    color: #888 !important;
+}
+
+
+
+footer{
+	background-color:#1A1A1A;
+	height: 15%;
+    color: white;
+    padding: 15px;    
+}
+
+.f-espaciado{
+    letter-spacing:5px;
+}
+
+.tr-input{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px;
+    opacity: 0.8;
+}
